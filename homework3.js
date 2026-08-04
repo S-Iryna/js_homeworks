@@ -1,7 +1,7 @@
 // Написати функцію pow(x,y) яка буде приймати 2 цисла, перше це число яке ми будемо зводити у ступінь, друге у яку ступінь.
 
 function pow(x,y) {
-    multiply=1;
+    let multiply=1;
     for (let i=0; i<y; i++){
        multiply=multiply*x;
     }
