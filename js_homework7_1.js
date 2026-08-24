@@ -10,13 +10,18 @@ var arr = [
         email:"dmitro.porohov@yahoo.com"
     },
     {
+        userName:"Dmitro",
+        lastName:"Porohov",
+        email:"dmitro.dmitro.dmitro.porohov@yahoo.com"
+    },
+    {
         userName:"Andrii",
         lastName:"",
         email:"andrii@mail.ru" // Нам такі не підходять
     },
 ];
 
-var regex = /^[A-Za-z0-9]+(\.[A-Za-z0-9]+)*@(gmail\.com|yahoo\.com)$/;
+var regex = /^[A-Za-z0-9]+(\.[A-Za-z0-9]+)?@(gmail\.com|yahoo\.com)$/;
 
 var trustedEmails = [];
 
